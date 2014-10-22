@@ -115,10 +115,16 @@ object {
       ]
     }
   ],
+  "_extends": [
+    "/models/common_res.spec"
+  ],
   "comments": {
-    "namedComment": {},
+    "namedComment": {
+      "method": "GET",
+      "uri": "/event/{number}"
+    },
     "comments": [
-      "이벤트 컨텐츠 ",
+      "예시",
       ""
     ]
   }
